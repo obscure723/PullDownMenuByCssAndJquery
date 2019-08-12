@@ -1,0 +1,31 @@
+.menu {
+  width: 750px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  display: block;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  background-color: aqua;
+  line-height: 40px;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #222;
+}
+
+.menu li:hover {
+  background-color: aquamarine;
+}
+
+.menu li > ul {
+  display: none;
+}
