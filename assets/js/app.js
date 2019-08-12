@@ -1,7 +1,6 @@
 $(function() {
   $(".menu li").mouseenter(function(){
-    console.log('li');
-    $(this).siblings().find("ul").hide();  // 兄弟要素に含まれるサブメニューを全部消す。
+    $(this).siblings().find("ul").hide();
     $(this).find("ul").slideDown(150);
   });
 
