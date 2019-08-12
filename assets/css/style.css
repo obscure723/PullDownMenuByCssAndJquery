@@ -24,10 +24,6 @@
   color: #222;
 }
 
-.menu li:hover {
-  background-color: aquamarine;
-}
-
 .menu li > ul {
   display: none;
 }
